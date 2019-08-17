@@ -1,0 +1,21 @@
+import turtle
+
+tina = turtle.Turtle()
+tina.shape("turtle")
+tina.color("red")
+
+tina.begin_fill()
+for i in range(8):
+  tina.forward(60)
+  tina.left(45)
+tina.end_fill()
+tina.penup()
+tina.goto(30, -25)
+tina.left(90)
+
+todd = turtle.Turtle()
+todd.color("white")
+todd.penup()
+todd.goto(-38, 46)
+todd.write("STOP", font=("impact", 50))
+todd.goto(-38, -20)
